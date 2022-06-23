@@ -1,33 +1,34 @@
 const container = document.querySelector(".container");
 const question = document.querySelector("#container2");
-const questionSecond = document.querySelector(".container-question");
- const questionTree = document.querySelector(".container-question1");
+
+const containerQuestion1 = document.querySelector(".container-question");
+const questionForm1  = document.querySelector("#container0");
+
+const containerQuestion2 = document.querySelector(".container-question1");
+const questionForm2 = document.querySelector("#container3");
 
 console.log(container, question);
-const container0 = document.querySelector("#container0");
-
-const container2 = document.querySelector("#container2");
-
 
 
 container.addEventListener("submit", (e) => {
     e.preventDefault()
-    questionSecond.style.display = 'block'
+    containerQuestion1.style.display = 'block'
     container.style.display = 'none'
     console(questionSecond)
-
 })
 
- container3.addEventListener("submit", (e) => {
+questionForm1.addEventListener("submit", (e) => {
     e.preventDefault()
-    questionTree.style.display ='block'
-    questionSecond.style.display = 'none'
+    containerQuestion2.style.display ='block'
+    containerQuestion1.style.display = 'none'
+    container.style.display = 'none'
  })
 
-container2.addEventListener("submit", (e) => {
+questionForm2.addEventListener("submit", (e) => {
     e.preventDefault()
-    question.style.display = 'block'
-    container.style.display = 'none'
+    containerQuestion2.style.display ='none'
+    containerQuestion1.style.display = 'none'
+    container.style.display = 'block'
 })
 
 
