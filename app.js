@@ -13,6 +13,7 @@ console.log(container, question);
 container.addEventListener("submit", (e) => {
     e.preventDefault()
     containerQuestion1.style.display = 'block'
+    containerQuestion2.style.display ='none'
     container.style.display = 'none'
     console(questionSecond)
 })
