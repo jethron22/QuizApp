@@ -1,0 +1,121 @@
+
+body
+{
+background: linear-gradient(90deg, #85F6B8 0%, rgba(142, 217, 235, 0.85) 99.84%);
+align-items: center;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: auto;
+    padding: 120px;
+    font-family: 'Inter', sans-serif;
+    font-size: small;   
+}
+
+h1
+{
+text-align: center;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    width: 350px;
+}
+.name 
+{
+display: flex;
+height: 35px;
+width: 340px;
+}
+.mail 
+{
+display: flex;
+height: 35px;
+width: 340px;
+}
+.button-ops
+{
+display: flex;
+height: 40px;
+background-color: #027030;
+padding: 30px 0 1;
+width: 145px;
+color: rgb(255, 244, 244);
+cursor: pointer;
+margin-right: 200px;
+}
+.center
+{
+text-align: center;
+margin-bottom: 45px;
+margin-top: 15px;
+}
+.titre
+{
+    font-size: medium;
+}
+  
+  #file {
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+
+  .title
+  {
+    display: flex;
+    width: 100%;
+    font-size: medium;
+    flex-wrap: wrap;
+  }
+  
+  .radion label
+  { 
+    display: block;
+    border: 2px solid rgb(234, 242, 6);
+    padding: 10px;
+    margin-top: 28px;
+    height: 25px;
+  }
+  .button-submissions
+  {
+    display: flex;
+    align-content: center;
+   height: 40px;
+    padding-top: 40px;
+    margin-right: auto;
+  }
+  .button-quitter
+  {
+background-color: rgb(235, 155, 6);
+width: 145px;
+color: rgb(255, 244, 244);
+cursor: pointer;
+justify-content: space-between;
+
+  }
+  .button-suivant
+  {
+background-color: #027030;
+padding: 30px 0 1;
+width: 145px;
+color: rgb(255, 244, 244);
+cursor: pointer;
+margin-right: 200px;
+  }
+  .radion label#t1
+  { 
+    padding: 10px;
+  } 
+  .container-question{
+    display: none;
+    align-items: center;
+    margin-left: 380px;
+    margin-top: 100px;
+  }
+  

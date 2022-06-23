@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form method="post" id="container2">
+      <h1>Javascript Quiz</h1>
+      <div class="center">Évaluez vos connaissances en JavaScript en
+        répondant aux questions que nous avons
+        spécialement sélectionnées pour vous.<br>
+        C'est fun et c'est gratuit.</div>
+      <label>Nom<input class="name" placeholder="Jethron" type="text" required pattern="[A-z]+."></label><br>
+      <p>
+        <label>Email<input class="mail" placeholder="jethronbwira@gmail.com" type="email" required
+            pattern="^[a-zA-Z0-9\._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="Mettez un e-mail valide s'il vous plait"></label><br>
+      </p>
+      <input class="button-ops" type="submit" value="Commencer">
+
+    </form>
+  </div>
+  <div class="container-question">
+    <form action="" method="post" id="container0">
+      <p>
+      <div class="title">Quel est le type d'un fichier JavaScript</div>
+      </p>
+      <label for="file">Question 1/15</label>
+      <progress id="file" max="100" value="70"> 70% </progress>
+      <label>
+        <p><input id="t1" type="radio" name="open">ts</p>
+      </label>
+      <label>
+        <p><input id="t2" type="radio" name="open">.Jsx</p>
+      </label>
+      <label>
+        <p><input id="t3" type="radio" name="open">.Js</p>
+      </label>
+      <label>
+        <p><input id="t4" type="radio" name="open">.j</p>
+      </label>
+      <br>
+      <div class="button-submissions">
+        <input class="button-quitter" type="submit" value="Quitter">
+        <input class="button-suivant" type="submit" value="Suivant">
+        <script src="app.js"></script>
+      </div>
+    </form>
+
+    <div class="container-question1">
+      <form action="" method="post" id="container3">
+        <p>
+        <div class="title">Comment on ouvre et ferme des balises javascript dans un fichier html</div>
+        </p>
+        <label for="file">Question 1/15</label>
+        <progress id="file" max="100" value="70"> 70% </progress>
+        <label>
+          <p><input id="t1" type="radio" name="open">ts</p>
+        </label>
+        <label>
+          <p><input id="t2" type="radio" name="open">.Jsx</p>
+        </label>
+        <label>
+          <p><input id="t3" type="radio" name="open">.Js</p>
+        </label>
+        <label>
+          <p><input id="t4" type="radio" name="open">.j</p>
+        </label>
+        <br>
+        <div class="button-submissions">
+          <input class="button-quitter" type="submit" value="Quitter">
+          <input class="button-suivant" type="submit" value="Suivant">
+          <script src="app.js"></script>
+        </div>
+      </form>
+    </div>
+</body>
+
+</html>
