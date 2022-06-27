@@ -27,6 +27,8 @@ form
     padding: 25px;
     width: 350px;
     border-radius: 8px;
+    margin-left: 23%;
+    margin-top: 100px;
 }
 .name 
 {
@@ -45,11 +47,12 @@ width: 340px;
 display: flex;
 height: 40px;
 background-color: #027030;
-padding: 30px 0 1;
+padding-left: 33px ;
 width: 145px;
 color: rgb(255, 244, 244);
 cursor: pointer;
-margin-right: 200px;
+margin-left: 100px;
+
 }
 .center
 {
@@ -65,6 +68,7 @@ margin-top: 15px;
   #file {
     padding-right: 10px;
     font-size: 1rem;
+    width: 100%;
   }
 
   .title
@@ -89,7 +93,8 @@ margin-top: 15px;
     align-content: center;
    height: 40px;
     padding-top: 40px;
-    margin-right: auto;
+    margin-left: px;
+    justify-content: space-around;
   }
   .button-quitter
   {
@@ -97,7 +102,6 @@ background-color: rgb(235, 155, 6);
 width: 145px;
 color: rgb(255, 244, 244);
 cursor: pointer;
-justify-content: space-between;
 
   }
   .button-suivant
@@ -107,7 +111,7 @@ padding: 30px 0 1;
 width: 145px;
 color: rgb(255, 244, 244);
 cursor: pointer;
-margin-right: 200px;
+margin-left: 8px;
   }
   .radion label#t1
   { 
@@ -117,6 +121,6 @@ margin-right: 200px;
     display: none;
     align-items: center;
     margin-left: 380px;
-    margin-top: 100px;
+  
   }
   

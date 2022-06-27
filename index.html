@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
   <div class="container">
     <form method="post" id="container2">
       <h1>Javascript Quiz</h1>
@@ -20,19 +19,18 @@
         C'est fun et c'est gratuit.</div>
       <label>Nom<input class="name" placeholder="Jethron" type="text" required pattern="[A-z]+."></label><br>
       <p>
-        <label>Email<input class="mail" placeholder="jethronbwira@gmail.com" type="email" required
-            pattern="^[a-zA-Z0-9\._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        <label>Email<input class="mail" placeholder="jethronbwira@gmail.com" type="text" required
+            pattern="^[a-zA-Z0-9\.\_%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             title="Mettez un e-mail valide s'il vous plait"></label><br>
       </p>
       <input class="button-ops" type="submit" value="Commencer">
-
     </form>
   </div>
   <div class="container-question">
     <form action="" method="post" id="container0">
       <p>
-      <div class="title">Quel est le type d'un fichier JavaScript</div>
-      </p>
+      <div class="title">Quel est le type d'un fichier JavaScript</p>
+      </div>
       <label for="file">Question 1/15</label>
       <progress id="file" max="100" value="70"> 70% </progress>
       <label>
@@ -51,10 +49,8 @@
       <div class="button-submissions">
         <input class="button-quitter" type="submit" value="Quitter">
         <input class="button-suivant" type="submit" value="Suivant">
-
       </div>
     </form>
-
     <div class="container-question1">
       <form action="" method="post" id="container3">
         <p>
@@ -72,7 +68,9 @@
           <p><input id="t3" type="radio" name="open">.Js</p>
         </label>
         <label>
-          <p><inp ut id="t4" type="radio" name="open">.j</p>
+          <p>
+            <inp ut id="t4" type="radio" name="open">.j
+          </p>
         </label>
         <br>
         <div class="button-submissions">
@@ -81,7 +79,6 @@
         </div>
       </form>
     </div>
-    <script src="app.js"></script>
+      <script src="app.js"></script>
 </body>
-
 </html>
