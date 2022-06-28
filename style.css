@@ -90,6 +90,7 @@ margin-top: 15px;
   .button-submissions
   {
     display: flex;
+    border: none;
     align-content: center;
    height: 40px;
     padding-top: 40px;
@@ -123,4 +124,18 @@ margin-left: 8px;
     margin-left: 380px;
   
   }
+  .block3
+  {
+    display: none;
+    align-items: center;
+    margin-left: 380px;
+    }
+
+    .block4
+    {
+      display: none;
+    align-items: center;
+    margin-left: 380px;
+    }
+
   

@@ -4,6 +4,9 @@ const containerQuestion = document.querySelector(".container-question");
 
 const buttonOps = document.querySelector(".button-ops");
 const buttonSuivant = document.querySelector(".button-suivant");
+const blockTree = document.querySelector(".block3");
+const blockFour = document.querySelector(".block4");
+
 
 
 // select timer from HTML file
@@ -22,14 +25,12 @@ buttonOps.addEventListener("click", (e) => {
 
 buttonSuivant.addEventListener ("click", (e) => {
     e.preventDefault()
-    containerQuestion.style.display = 'block'
+    containerQuestion.style.display = 'none'
     container.style.display = 'none'
-    
-    const question = document.querySelector(input["Avec <script>", "on ouvre l'élément label", "on ferme HTML et on ouvre <script>", "Aucune bonne reponse"])
-
+    blockTree.style.display = 'block'
 })
 
-
+//const question = document.querySelector(input["Avec <script>", "on ouvre l'élément label", "on ferme HTML et on ouvre <script>", "Aucune bonne reponse"])
 
 
 // questionForm1.addEventListener("submit", (e) => {
