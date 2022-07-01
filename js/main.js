@@ -316,6 +316,7 @@ buttonSuivant.addEventListener('click', (e) => {
 })
 buttonQuitter.addEventListener('click', (e) => {
     e.preventDefault()
+    resultAction()
     let message = true
     loginPage.style.display = "none"
     resultPage.style.display = "block"
