@@ -72,11 +72,11 @@ const questionsAll = [
     },
 
     {
-        myQuest: "Comment on lie une librairie JS en HTML",
-        rep1: 'avec ce texte  ici',
-        rep2: 'avec ce texte ici',
-        rep3: 'avec ce texte ici',
-        rep4: 'avec ce texte ici',
+        myQuest: "Quel selecteur sert à selectionner une class dans le DOM ",
+        rep1: "Document.getElementById",
+        rep2: "Document.getElementByname",
+        rep3: "Document.getElementByClassName",
+        rep4: "Aucune bone reponse",
         vrai: 1,
     },
     {
