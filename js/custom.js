@@ -8,7 +8,7 @@ $("#formValidation").validate({
              }
           },
        messages: "Ce champ est requis",
-       minlength: "Au moins 2 caractères "
+       minlength: "Au moins 2 caractères ",
 
     submitHandler: function(form) {
       form.submit();
