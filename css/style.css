@@ -237,12 +237,15 @@ box-shadow: 2px 3px 4px slategray;
   width: 100px;
   height: 100px;
 }
-span#errorName
+#errorName
 {
   display: none;
   color:#fa1f07
 }
 
-
+.name
+{
+  display: block;
+}
 
 
