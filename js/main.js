@@ -262,9 +262,10 @@ function callQuestion() {
 
 callQuestion()
 
+
 /* Fonction qui gère la validation avant de passer le QUIZ */
 
-function clickButtonOps() {
+/*function clickButtonOps() {
     const userregexName = /[A-z]+./
     const userregexMail = /^[a-zA-Z0-9\._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/
     if (userregexName.test(userName.value) && userregexMail.test(userMail.value)) {
@@ -283,7 +284,7 @@ function clickButtonOps() {
             errorMail.style.fontSize = "small"
         }
     }
-}
+}*/
 
 // _________________________All events pages______________________________________
 
@@ -303,7 +304,9 @@ buttonSuivant.addEventListener('click', (e) => {
         deselectAll()
         takeQuestion++
         if (takeQuestion == 15) {
+            initializeCounter()
             resultAction()
+            
             loginPage.style.display = "none"
             resultPage.style.display = "block"
             questionsPage.style.display = "none"

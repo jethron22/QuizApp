@@ -8,20 +8,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
+    <script src="jquery.js" defer></script>
 
 </head>
 
 <body>
     <section id="loginPage">
-        <form method="post" id="loginForm">
+        <form name="formValidation" method="post" id="loginForm">
             <h1>Javascript Quiz</h1>
             <div class="center">Évaluez vos connaissances en JavaScript en
                 répondant aux questions que nous avons
                 spécialement sélectionnées pour vous.<br>
                 C'est fun et c'est gratuit.</div>
-            <label>Nom<input class="name" placeholder=" par exemple: Jethron" type="text" required pattern="[A-z]+."></label><span id="errorName" ></span><br>
+            <label>Nom<input class="name" placeholder="name*" type="text" required pattern="[A-z]+."></label><span id="errorName" >veuillez entrer votre nom s'il vous plait</span><br>
             <p>
-                <label>Email<input class="mail" placeholder="par exemple: jethronbwira@gmail.com" type="email" required
+                <label>Email<input class="mail" placeholder="Email*" type="email" required
                         pattern="^[a-zA-Z0-9\._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                         title="Mettez un e-mail valide s'il vous plait">
                 </label>
@@ -73,7 +74,14 @@
       <img src="success.png" alt="" id="selectorImg">
       <p id="userScore1">14/15</p>
       <button type="button" class="button-ops" id="accueilB">ACCUEIL</button>
+
     </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+    <script src="custom.js"></script>
+
 </body>
 
 </html>

@@ -98,14 +98,32 @@ box-shadow: 2px 3px 4px slategray;
   font-size: 40px;
 }
 
-#userEmail1{
-  font-size: 20px;
+label input.name {
+  font-size: 15px;
+  border: 0px solid transparent;
+outline: 0;
+background-color: rgb(214, 211, 211);
+line-height: 30px;
+border-radius: 5px;
+height: 40px;
+}
+
+label input.mail {
+  font-size: 15px;
+  border: 0px solid transparent;
+outline: 0;
+background-color: rgb(214, 211, 211);
+line-height: 30px;
+border-radius: 5px;
+
+height: 40px;
 }
 .center
 {
 text-align: center;
 margin-bottom: 45px;
 margin-top: 15px;
+
 }
 .titre
 {
@@ -219,7 +237,11 @@ box-shadow: 2px 3px 4px slategray;
   width: 100px;
   height: 100px;
 }
- 
+span#errorName
+{
+  display: none;
+  color:#fa1f07
+}
 
 
 
